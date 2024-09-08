@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Simple Calculator</h1>
+<form action="/calculate" method="post">
+    <input type="number" step="any" name="number1" placeholder="Enter first number" required>
+    <input type="number" step="any" name="number2" placeholder="Enter second number" required>
+    <button type="submit">Add</button>
+</form>
+<div>
+    <h2>Result: <span th:text="${result}">0</span></h2>
+</div>
+</body>
+</html>
