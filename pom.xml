@@ -8,9 +8,10 @@
 		<version>3.2.9</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<packaging>jar</packaging>
 	<groupId>com.example</groupId>
 	<artifactId>easy-calc</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>easy-calc</name>
 	<description>Demo project for Spring Boot, Java, CI/CD</description>
 	<url/>

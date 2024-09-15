@@ -19,4 +19,4 @@ jobs:
         with:
           java-version: 1.17
       - name: Build package with mvn
-        run: mvn -B clean package
+        run: mvn -B clean package -f pom.xml
