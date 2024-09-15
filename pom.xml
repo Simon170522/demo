@@ -11,7 +11,7 @@
 	<packaging>jar</packaging>
 	<groupId>com.example</groupId>
 	<artifactId>easy-calc</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>easy-calc</name>
 	<description>Demo project for Spring Boot, Java, CI/CD</description>
 	<url/>
